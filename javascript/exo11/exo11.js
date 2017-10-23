@@ -33,7 +33,7 @@ var newJsonFile = data.map(function(X){
 
 var xhr =  new XMLHttpRequest();
 xhr.onload = function (event) {
-    
+ var data = xhr.response;   
 var dataBase = JSON.parse(this.responseText);
 console.log(dataBase[0]);    
     console.log("bordel");
