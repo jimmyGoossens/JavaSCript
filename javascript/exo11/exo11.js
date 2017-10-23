@@ -38,5 +38,5 @@ var data = JSON.parse(this.responseText);
 console.log(data);    
     
 };
-xhr.open('GET', 'https://github.com/becodeorg/Lovelace-promo-2/blob/master/Parcours/JavaScript/11-AJAX/files/data.json',true);
+xhr.open('GET', 'data.json',true);
 xhr.send();
