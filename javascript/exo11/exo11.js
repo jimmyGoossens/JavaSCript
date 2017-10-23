@@ -37,7 +37,7 @@ xhr.onload = function (event) {
 var dataBase = JSON.parse(this.responseText);
 console.log(dataBase[0]);    
     console.log("bordel");
-        for(var i = 0 ; i<data.length;i++){
+        for(var i = 0 ; i<100;i++){
         
         data[i].note= Math.random()*1000;
                console.log(data[i]);
