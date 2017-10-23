@@ -35,7 +35,7 @@ var xhr =  new XMLHttpRequest();
 xhr.onload = function (event) {
     
 var data = JSON.parse(this.responseText);
-console.log(data);    
+console.log(data[0]);    
     
 };
 xhr.open('GET', 'data.json',true);
