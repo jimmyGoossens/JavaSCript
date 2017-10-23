@@ -36,6 +36,7 @@ xhr.onload = function (event) {
     
 var data = JSON.parse(this.responseText);
 console.log(data[0]);    
+    console.log("bordel");
     
 };
 xhr.open('GET', 'data.json',true);
