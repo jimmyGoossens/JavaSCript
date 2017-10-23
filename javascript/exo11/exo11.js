@@ -40,8 +40,9 @@ console.log(dataBase[0]);
         for(var i = 0 ; i<data.length;i++){
         
         data[i].note= Math.random()*1000;
+               console.log(data[i]);
     }
-    console.log(data[i]);
+ 
     
 };
 xhr.open('GET', 'data.json',true);
