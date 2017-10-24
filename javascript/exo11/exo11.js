@@ -60,7 +60,7 @@ console.log(dataBase[0]);
             braeck;
         default : console.log("FDP");
             breack;
-    }*/
+    
 
      
         forEach(pays in dataBase){
@@ -71,7 +71,7 @@ console.log(dataBase[0]);
                 console.log(compte);
         }
  
- 
+ */
 };
 xhr.open('GET', 'data.json',true);
 xhr.send();
