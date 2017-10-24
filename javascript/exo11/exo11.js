@@ -42,9 +42,9 @@ console.log(dataBase[0]);
         dataBase[i].note= Math.random()*1000;
                console.log(dataBase[i].note);
     }
-       console.log(dataBase);
-    dataBase.sort(dataBase.note);
-    console.log(dataBase.note.sort());
+      
+    
+    console.log(dataBase.note.sort(function(a, b){return a-b}));
     
     var gradeA =[];
     var gradeB = [];
