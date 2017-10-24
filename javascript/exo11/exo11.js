@@ -49,7 +49,7 @@ console.log(dataBase[0]);
     var gradeA =[];
     var gradeB = [];
     var gradeC = [];
-    for (var i =0; i<100; i++){
+ /*   for (var i =0; i<100; i++){
     
         switch(true)
         case(dataBase[i].note > 750): gradeA.push(dataBase[i]);
@@ -60,7 +60,7 @@ console.log(dataBase[0]);
             braeck;
         default : console.log("FDP");
             breack;
-    }
+    }*/
 
      
         forEach(pays in dataBase){
