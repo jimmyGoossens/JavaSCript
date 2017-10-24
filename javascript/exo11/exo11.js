@@ -44,7 +44,8 @@ console.log(dataBase[0]);
     }
       
     
-    console.log(dataBase.note.sort(function(a, b){return a-b}));
+    console.log(data);
+    console.log(dataBase.note);
     
     var gradeA =[];
     var gradeB = [];
