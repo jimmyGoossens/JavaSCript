@@ -39,10 +39,10 @@ console.log(dataBase[0]);
     console.log("bordel");
         for(var i = 0 ; i<100;i++){
         
-        data[i].note= Math.random()*1000;
-               console.log(data[i].note);
+        dataBase[i].note= Math.random()*1000;
+               console.log(dataBase[i].note);
     }
-       console.log(data);
+       console.log(dataBase);
     data.sort(data.note);
     console.log(data.sort(data.note));
  
