@@ -43,8 +43,33 @@ console.log(dataBase[0]);
                console.log(dataBase[i].note);
     }
        console.log(dataBase);
-    data.sort(data.note);
-    console.log(data.sort(data.note));
+    dataBase.sort(dataBase.note);
+    console.log(dataBase.sort(dataBase.note));
+    
+    var gradeA =[];
+    var gradeB = [];
+    var gradeC = [];
+    for (var i =0; i<100; i++){
+    
+        switch(true)
+        case(dataBase[i].note > 750): gradeA.push(dataBase[i]);
+            breack;
+        case(database[i].note<=750):gradeB.push(dataBase[i]);
+            breack;
+        case (dataBase[i].note <500):gradeC.push(dataBase[i]);
+            braeck;
+        default : console.log("FDP");
+            breack;
+    }
+
+     
+        forEach(pays in dataBase){
+        var compte = 0;
+        if (dataBase.country == "Bahrain"){
+                compte++
+        }
+                console.log(compte);
+        }
  
  
 };
