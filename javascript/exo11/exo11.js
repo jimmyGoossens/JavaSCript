@@ -40,10 +40,14 @@ console.log(dataBase[0]);
         for(var i = 0 ; i<100;i++){
         
         data[i].note= Math.random()*1000;
-               console.log(data[i]);
+               console.log(data[i].note);
     }
- 
+    data.sort(function(a,b){
     
+    return a.note - b.note;
+});
+    console.log(data);
+ 
 };
 xhr.open('GET', 'data.json',true);
 xhr.send();
