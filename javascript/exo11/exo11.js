@@ -42,11 +42,10 @@ console.log(dataBase[0]);
         data[i].note= Math.random()*1000;
                console.log(data[i].note);
     }
-    data.sort(function(a,b){
-    
-    return a.note - b.note;
-});
-    console.log(data);
+       console.log(data);
+    data.sort(data.note);
+    console.log(data.sort(data.note));
+ 
  
 };
 xhr.open('GET', 'data.json',true);
