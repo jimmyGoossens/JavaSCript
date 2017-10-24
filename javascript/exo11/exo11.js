@@ -44,8 +44,8 @@ console.log(dataBase[0]);
     }
       
     
-    console.log(data);
-    console.log(dataBase.note);
+    console.log(data[0]);
+    console.log(dataBase[0].note);
     
     var gradeA =[];
     var gradeB = [];
